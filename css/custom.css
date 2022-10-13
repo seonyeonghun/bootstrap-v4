@@ -1,8 +1,49 @@
 @charset "utf-8";
+:root {
+    --custom-color1: #7E8C24;
+    --custom-color2: #fff;
+    --custom-color3: #C4C4C4;
+    --custom-color4: #959595;
+    --custom-color5: #CD3232;
+    --custom-color6: #000000;
+    --custom-color7: rgba(0,0,0,.5);
 
-.bg-greenbean {
-    background: #7E8C24;
 }
+.bg-greenbean {
+    background: var(--custom-color1);
+}
+.bg-circlebtn {
+    background: var(--custom-color7);
+    color: var(--custom-color2);
+}
+
+.main-title {
+    color: var(--custom-color4);
+    font-size: 2rem
+}
+.sub-title {
+    font-size: 3rem
+}
+
+/* 메인 > 상품목록 > 탭 */
+.nav {
+    gap: 1rem;
+}
+.nav-pills .nav-link {
+    background: var(--custom-color3);
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--custom-color2);
+    background-color: var(--custom-color1);
+}
+.bg-ship {
+    color: var(--custom-color6);
+    background: var(--custom-color3);
+}
+.bg-special {
+    background: var(--custom-color5);
+}
+
 
 .banner-text {
     font-size: .875rem;
