@@ -53,6 +53,19 @@
     font-size: .875rem; /* 16px x 0.785 = 14px */
 }
 
+/* aside */
+.news {
+    color: var(--custom-color2);
+}
+.news span {
+    font-size: .750rem;
+}
+.move-top {
+    color: var(--custom-color2);
+    background: var(--custom-color7);
+}
+
+
 @media screen and (max-width: 576px) {
     html {
         font-size: 20px;
